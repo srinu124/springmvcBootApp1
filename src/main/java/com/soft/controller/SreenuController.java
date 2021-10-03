@@ -23,5 +23,12 @@ public class SreenuController {
 		
 		return "this is wish1";
 	}
+	@PostMapping("/wish2")
+	public String whsi2() {
+		
+		log.info("this in inside wish2");
+		
+		return "this is wish12";
+	}
 
 }
